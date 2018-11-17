@@ -6,9 +6,9 @@ import pprint
 from xml.dom import minidom
 
 #login details for the icomfort.com page
-username = "XXXXXXXXXXXXX"; #your lennox web username
-password = "XXXXXXXXXXXXX"; #your lennox we password
-weatherLocation = "XXXXXX, XX"; #accuweather location string ie: "Chicago, IL"
+username = "John&BabsDavis"; #your lennox web username
+password = "Fort68"; #your lennox we password
+weatherLocation = "Austin, TX"; #accuweather location string ie: "Chicago, IL"
 
 serviceURL = "https://" + username + ":" + password + "@services.myicomfort.com/DBAcessService.svc/";
 
